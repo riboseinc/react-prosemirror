@@ -1,7 +1,7 @@
 import { joinUp, lift, setBlockType, toggleMark, wrapIn } from 'prosemirror-commands'
 import { redo, undo } from 'prosemirror-history'
 import { wrapInList } from 'prosemirror-schema-list'
-// import { addColumnAfter, addColumnBefore } from 'prosemirror-tables'
+import { addColumnAfter, addColumnBefore } from 'prosemirror-tables'
 
 import schema from './schema'
 import icons from './icons'
@@ -251,7 +251,7 @@ export default {
   table: {
     addColumnBefore: {
       title: 'Insert column before',
-      content: icons.after,
+      content: icons.column_after,
       active: addColumnBefore, // TOOD: active -> select
       run: addColumnBefore
     },
