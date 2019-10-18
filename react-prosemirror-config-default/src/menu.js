@@ -247,19 +247,19 @@ export default {
       enable: redo,
       run: redo
     }
+  },
+  table: {
+    addColumnBefore: {
+      title: 'Insert column before',
+      content: icons.after,
+      active: addColumnBefore, // TOOD: active -> select
+      run: addColumnBefore
+    },
+    addColumnAfter: {
+      title: 'Insert column before',
+      content: icons.before,
+      active: addColumnAfter, // TOOD: active -> select
+      run: addColumnAfter
+    }
   }
-  // table: {
-    // addColumnBefore: {
-    //   title: 'Insert column before',
-    //   content: icons.after,
-    //   active: addColumnBefore, // TOOD: active -> select
-    //   run: addColumnBefore
-    // },
-    // addColumnAfter: {
-    //   title: 'Insert column before',
-    //   content: icons.before,
-    //   active: addColumnAfter, // TOOD: active -> select
-    //   run: addColumnAfter
-    // }
-  // }
 }
