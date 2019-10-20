@@ -1,23 +1,14 @@
 .bar {
-  margin-bottom: 5px;
   display: flex;
   flex-flow: row wrap;
   align-items: baseline;
-  margin-left: -1rem;
-  padding: .5rem 0;
-  background: whiteSmoke;
+  padding: .5rem;
 }
 
 .group {
-  margin-right: 5px;
+  margin-right: .5rem;
   display: flex;
   flex-flow: row nowrap;
-}
-
-.group::before {
-  content: "•";
-  margin: 0 .5rem;
-  color: #ccc;
 }
 
 .button {
