@@ -250,25 +250,25 @@ export default {
   },
   table: {
     addColumnBefore: {
-      title: 'Insert column before',
+      title: 'Insert column before selected',
       content: 'Column before',
       active: addColumnBefore, // TOOD: active -> select
       run: addColumnBefore
     },
     addColumnAfter: {
-      title: 'Insert column before',
+      title: 'Insert column before selected',
       content: 'Column after',
       active: addColumnAfter, // TOOD: active -> select
       run: addColumnAfter
     },
     addRowBefore: {
-      title: 'Insert row before',
+      title: 'Insert row before selected',
       content: 'Row before',
       active: addRowBefore, // TOOD: active -> select
       run: addRowBefore
     },
     addRowAfter: {
-      title: 'Insert row after',
+      title: 'Insert row after selected',
       content: 'Row after',
       active: addRowAfter, // TOOD: active -> select
       run: addRowAfter

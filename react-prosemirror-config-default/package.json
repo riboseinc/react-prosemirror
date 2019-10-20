@@ -1,6 +1,6 @@
 {
   "name": "@aeaton/react-prosemirror-config-default",
-  "version": "0.12.7",
+  "version": "0.12.8",
   "description": "A configuration for react-prosemirror with Font Awesome icons",
   "main": "dist",
   "files": [
