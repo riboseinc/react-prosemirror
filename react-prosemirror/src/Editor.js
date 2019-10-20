@@ -37,7 +37,7 @@ class Editor extends React.Component {
   }
 
   render () {
-    const editor = <div ref={this.editorRef} />
+    const editor = <div className={this.props.className} ref={this.editorRef} />
 
     return this.props.render ? this.props.render({
       editor,
