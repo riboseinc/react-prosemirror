@@ -1,6 +1,6 @@
 {
   "name": "@aeaton/react-prosemirror",
-  "version": "0.22.7",
+  "version": "0.22.10",
   "description": "A React component for ProseMirror",
   "main": "dist",
   "files": [
