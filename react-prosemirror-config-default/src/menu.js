@@ -264,14 +264,14 @@ export default {
     addRowBefore: {
       title: 'Insert row before',
       content: 'Row before',
-      active: addColumnBefore, // TOOD: active -> select
-      run: addColumnBefore
+      active: addRowBefore, // TOOD: active -> select
+      run: addRowBefore
     },
     addRowAfter: {
       title: 'Insert row after',
       content: 'Row after',
-      active: addColumnAfter, // TOOD: active -> select
-      run: addColumnAfter
+      active: addRowAfter, // TOOD: active -> select
+      run: addRowAfter
     }
   }
 }
