@@ -1,7 +1,7 @@
 import { joinUp, lift, setBlockType, toggleMark, wrapIn } from 'prosemirror-commands'
 import { redo, undo } from 'prosemirror-history'
 import { wrapInList } from 'prosemirror-schema-list'
-import { addColumnAfter, addColumnBefore, addRowAfter, addRowBefore } from 'prosemirror-tables'
+import { addColumnAfter, addColumnBefore, addRowAfter, addRowBefore, mergeCells } from 'prosemirror-tables'
 
 import schema from './schema'
 import icons from './icons'
@@ -272,6 +272,12 @@ export default {
       content: 'Row after',
       active: addRowAfter, // TOOD: active -> select
       run: addRowAfter
+    },
+    mergeCells: {
+      title: 'Merge selected cells',
+      content: 'Merge',
+      active: mergeCells, // TOOD: active -> select
+      run: mergeCells
     }
   }
 }
