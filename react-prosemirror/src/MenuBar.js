@@ -20,8 +20,8 @@ const Button = ({ state, dispatch }) => (item, key) => (
   >{item.content}</button>
 )
 
-const MenuBar = ({ menu, children, view }) => (
-  <div className={classes.bar}>
+const MenuBar = ({ menu, children, view, className, groupClassName }) => (
+  <div className={`${classes.bar} ${className || ''}`}>
     {children && (
       <span className={classes.group}>
         {children}
@@ -29,7 +29,7 @@ const MenuBar = ({ menu, children, view }) => (
     )}
 
     {map(menu, (item, key) => (
-      <span key={key} className={classes.group}>
+      <span key={key} className={`${classes.group} ${groupClassName}`}>
         {map(item, Button(view))}
       </span>
     ))}
