@@ -1,11 +1,16 @@
 .bar {
   margin-bottom: 5px;
   display: flex;
+  flex-flow: row wrap;
   align-items: baseline;
 }
 
 .group {
   margin-right: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: .2rem 0 .1rem 0;
+  box-shadow: 2px 2px 0 -1px silver;
 }
 
 .button {
