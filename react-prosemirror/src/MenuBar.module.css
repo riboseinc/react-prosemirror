@@ -21,7 +21,7 @@
 }
 
 .button {
-  background: #fff;
+  background: transparent;
   border: none;
   font-size: inherit;
   cursor: pointer;
