@@ -1,0 +1,38 @@
+.bar {
+  margin-bottom: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  padding: .5rem 0;
+  background: whiteSmoke;
+}
+
+.group {
+  margin-right: .5rem;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+  color: #777;
+  border-radius: 0;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  color: #000;
+  background: #f6f6f6;
+}
+
+.button.active {
+  color: #000;
+}
+
+.button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
